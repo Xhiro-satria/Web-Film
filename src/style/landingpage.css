@@ -1,0 +1,60 @@
+.myBG {
+    height: 100vh;
+    background: url("../assets/img/bg/fury.jpg");
+    background-size: cover;
+}
+
+.intro {
+    height: 300px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.title {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: 2px 2px black;
+    letter-spacing: 4px;
+}
+
+.trending {
+    height: auto;
+    background: url("../assets/img/bg/black.jpg");
+    background-size: cover;
+}
+
+.Superhero {
+    height: auto;
+    background: url("../assets/img/bg/black.jpg");
+    background-size: cover
+}
+
+.battleground {
+    height: auto;
+    background: url("../assets/img/bg/black.jpg");
+    background-size: cover
+}
+
+.romance {
+    height: auto;
+    background: url("../assets/img/bg/black.jpg");
+    background-size: cover
+}
+
+.anime {
+    height: auto;
+    background: url("../assets/img/bg/black.jpg");
+    background-size: cover
+}
+
+.movieImage {
+    height: auto;
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+}
+
+.images {
+    height: 500px;
+}
