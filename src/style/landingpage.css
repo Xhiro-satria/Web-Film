@@ -58,3 +58,14 @@
 .images {
     height: 500px;
 }
+
+.main-content {
+  padding-top: 70px; /* desktop */
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding-top: 90px; /* mobile */
+  }
+}
+
