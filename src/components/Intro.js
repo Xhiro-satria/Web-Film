@@ -9,7 +9,12 @@ const Intro = () => {
                 <div className='title'>NONTON GRATIS</div>
                 <div className='title'>GA PAKE KARCIS</div>
                 <div className="introButton mt-4 text-center">
-                    <Button variant="light">Lihat Semua List</Button>
+                    <Button variant="light" onClick={() => {
+                        const toggle = document.querySelector(".navbar-toggler");
+                        if (toggle) toggle.click();
+                        }}
+                      >Lihat Semua List
+                      </Button>
                 </div>
               </Col>
             </Row>
